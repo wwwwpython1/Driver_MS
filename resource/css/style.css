@@ -1,0 +1,120 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#box {
+	height: 700px;
+	width: 876px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../resource/image/dl_08.gif);
+	background-repeat: repeat-y;
+}
+#top {
+	background-image: url(../resource/image/dl_02.gif);
+	background-repeat: no-repeat;
+	height: 102px;
+	width: 876px;
+	float: left;
+}
+body {
+	background-image: url(../resource/image/dl_05.gif);
+	background-repeat: repeat;
+}
+#bottom {
+	background-image: url(../resource/image/dl_15.gif);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 876px;
+	float: left;
+}
+#mid {
+	height: 572px;
+	width: 876px;
+	float: left;
+}
+#login {
+	height: 207px;
+	width: 394px;
+	margin-top: 35px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../resource/image/dl_11.gif);
+	background-repeat: no-repeat;
+}
+#login2 {
+	background-image: url(../resource/image/dl_13.gif);
+	background-repeat: no-repeat;
+	height: 49px;
+	width: 394px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#zc_01 {
+	background-image: url(../resource/image/zc_03.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 30px;
+	width: 845px;
+	margin-top: 35px;
+	margin-bottom: 40px;
+	margin-left: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #1B6C9A;
+}
+#zc_02 {
+	height: 352px;
+	width: 595px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../resource/image/zc_07.gif);
+	background-repeat: no-repeat;
+}
+
+
+
+#htgl_01 {
+	background-image: url(../resource/image/ht_03.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 30px;
+	width: 845px;
+	margin-top: 35px;
+	margin-bottom: 30px;
+	margin-left: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #1B6C9A;
+	text-align: right;
+}
+#htgl_02 {
+	height: 460px;
+	width: 845px;
+	margin-left: 15px;
+}
+
+
+
+#grzl_01 {
+	background-image: url(../resource/image/grzl_03.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 30px;
+	width: 845px;
+	margin-top: 35px;
+	margin-bottom: 30px;
+	margin-left: 15px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #1B6C9A;
+	text-align: right;
+}
+#grzl_02 {
+	height: 460px;
+	width: 845px;
+	margin-left: 15px;
+}

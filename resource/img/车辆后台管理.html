@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>
+	车辆后台管理
+</title>
+   <link href="%E8%BD%A6%E8%BE%86%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86_files/style.html" rel="stylesheet" type="text/css">
+    <link href="%E8%BD%A6%E8%BE%86%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86_files/style.html" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #form1
+        {
+            text-align: center;
+        }
+        .style1
+        {
+            width: 88%;
+        }
+        .style2
+        {
+            width: 100%;
+        }
+        .style3
+        {
+            width: 56px;
+        }
+        </style>
+</head>
+
+<body style="background-image:url(../resource/img/index.jpg)">
+     <form method="post" action="./CarMS.aspx" id="form2">
+<div class="aspNetHidden">
+<input name="__VIEWSTATE" id="__VIEWSTATE" value="x+jELDffEOYV9ntkj2+4v/8mDrzxPgtV3bO7xic3pXDcKRNb2/u84M/iuJt/kwlGeitcSra5QRO7ILuSed6riGgdk0BBm3ieEtxecgozR9VnfqJsrvzzo8uXmzg08MkoKZxrtqFchpneQMmUiddM+4OQGHNeGMzXdjWPzmg5Dzt/JvM2gMhYi1rSXSWxEHLM7xatt+lPuVT16Mfy5jkPtJdiOPywYtED2i5BqiNayQMqdWdJOBV4Tsbwb0EVCxuSwO7iS1/XZrKWevJ8Xsn+iW95SlJTMB1ZFE3f5q4+GWVRhe6uDlZMTgoHDobDpbm8HEEtcOnrvBuma8YDMAdCyRZ3CnR53z1xUQFSYMTyUbgTgDzmgioOU1t2FBKXMKqFT+Z3GZrn8l1RY1lV9xdOlDk4SnA7/Qhp0xtDi+Ca+CNPrgNmvcXsaY05aLelE2kl90WFpatnQVNBX4Lo6y45CaHCMNtYXe9ufiMgk8yBU3R+IiRQ5XhdXvWvUbRpr7MDU/t7c3jbxpqSIcDXnlu4mdF18RhpwAy1FUV5Oa/xHnJh3D2DPN2d/tBCJghcVZQW30yWI8B+akPJJR63g0JyT16yTzlExX+kkbIyUO5SguNU//fkdspZaV2Tzfmn7vvUjdYghrI1KTSMU9FkKe7dcyCiu5BYOPv2kTxIOmtbjzzAQKPRcLnMfKuIJnyXIhNcpyhUl5rLF6R2t/UkRCqSevJBiV5Z2dxRK6PkW8LH0T9G5C0ZYut6q/5uErKZPV7YIHGs+XeW1qPmQnHrPKDod3PcCE4UNeoT6uca9NDK8Yph/39O6LyjRF3xarDMZ/jUFXEZENsQ4senFB4FGnVB99QIChet9oILhDBdPzucxHe6CX3aqtejBpp1y+5FVy6JJ+sNpSdIFr5RMx0N7Oce+W2KeDGfHl3LHIWx2B2dkSKh37aPHjCO3+Qg1/vVlBUO++k1lPod1FpPjsOmFwUZUikeg+nqPkRoBWpgmuLxe3BT5BfEN8b3VLb4Km8kR9cK0oJF9i4hmIprZw7ekm6btj+N4Jr4TBMHtAxPRGePEjNd+UkhmoGDrts8jQ2TkpTZqiopuIEB+LCfNqt5fNQHZvpdsoX4KJr6xilWyctodv68Tce15y6fhQ5Pz2YBbVbr/R02uLyqYecYXZMOwlmQY8AT7oPtSDYv1SKnzEcHnpXeBi2o5oFUA6otdk/dslOa4N/b8SPfh7MqSRS3t8DkYjfUsaOwgvaNQJXfM4kdx9XzoSjq1uiMWT6nwr63oyt25dbWnZKDTX7CDtGfLrMPyw==" type="hidden">
+</div>
+
+        <table align="center">
+            <tbody><tr>
+                <td align="center"> <input name="ImageButton_show" id="ImageButton_show" src="%E8%BD%A6%E8%BE%86%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86_files/ht_03.gif" type="image"> </td>
+            </tr>
+           
+        </tbody></table>
+      
+   
+        <center>
+        <div>
+	<table rules="all" id="GridView1" style="background-color:White;border-color:#CC9966;border-width:1px;border-style:None;height:138px;width:909px;border-collapse:collapse;" cellspacing="0" cellpadding="4">
+		<tbody><tr>
+			<th scope="col">用户名</th><th scope="col">驾驶证</th><th scope="col">车品牌</th><th scope="col">购买日期</th><th scope="col">车牌号</th><th scope="col">&nbsp;</th><th scope="col">&nbsp;</th>
+		</tr><tr>
+			<td>王刚</td><td>10098</td><td>宝马</td><td>1993/2/2 0:00:00</td><td>陕A8859</td><td>
+                   <a href="http://localhost:35690/updatecar.aspx?car_num=%E9%99%95A8859">更新</a>
+                   </td><td>
+                   <a href="http://localhost:35690/delcar.aspx?car_num=%E9%99%95A8859" onclick="return confirm('确定删除陕A8859')">删除</a>
+                   </td>
+		</tr><tr>
+			<td>王伟</td><td>10086</td><td>路虎</td><td>2013/2/2 0:00:00</td><td>陕F 10086</td><td>
+                   <a href="http://localhost:35690/updatecar.aspx?car_num=%E9%99%95F%2010086">更新</a>
+                   </td><td>
+                   <a href="http://localhost:35690/delcar.aspx?car_num=%E9%99%95F%2010086" onclick="return confirm('确定删除陕F 10086')">删除</a>
+                   </td>
+		</tr><tr>
+			<td>王大</td><td>1092231</td><td>宝马Q</td><td>2007/12/3 0:00:00</td><td>陕F 10923</td><td>
+                   <a href="http://localhost:35690/updatecar.aspx?car_num=%E9%99%95F%2010923">更新</a>
+                   </td><td>
+                   <a href="http://localhost:35690/delcar.aspx?car_num=%E9%99%95F%2010923" onclick="return confirm('确定删除陕F 10923')">删除</a>
+                   </td>
+		</tr><tr>
+			<td>王伟</td><td>10086</td><td>路虎</td><td>1900/1/1 0:00:00</td><td>陕F10086</td><td>
+                   <a href="http://localhost:35690/updatecar.aspx?car_num=%E9%99%95F10086">更新</a>
+                   </td><td>
+                   <a href="http://localhost:35690/delcar.aspx?car_num=%E9%99%95F10086" onclick="return confirm('确定删除陕F10086')">删除</a>
+                   </td>
+		</tr>
+	</tbody></table>
+</div>
+     
+       
+    
+<div class="aspNetHidden">
+
+	<input name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="59B296C6" type="hidden">
+	<input name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" type="hidden">
+	<input name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/8mvB8TJaqTwxZtm2zbT5S3e0L4weYV10N9GV2CAYroKyq0RDlIxGJU5epMx/HCCszR7sTCy1hFyhnhhtzsVkUD2c7+80pQ4UV2HmnOR+aiYCDRZg/TkAj+rAHtZIQP+IFZ6YO/N6oiDB3G4uuoA6A==" type="hidden">
+</div>
+    
+<!-- Visual Studio Browser Link -->
+<script type="application/json" id="__browserLink_initializationData">
+    {"appName":"Firefox","requestId":"bba275a5e7c04f20a5a8d075a01f0615"}
+</script>
+<script type="text/javascript" src="%E8%BD%A6%E8%BE%86%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86_files/browserLink" async="async"></script>
+<!-- End Browser Link -->
+
+
+
+</center></form></body></html>
